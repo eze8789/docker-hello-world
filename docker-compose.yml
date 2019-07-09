@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+
+  helloworld:
+    build: .
+    ports:
+      - 8380:80
